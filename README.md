@@ -1,5 +1,3 @@
-# AI-Interview-Planner
-
 # AI Interview Planner
 
 An AI-powered interview preparation platform designed to help users practice technical interviews, organize preparation workflows, and improve interview performance through an interactive and modern user experience.

@@ -194,7 +194,6 @@ Through this project, I gained hands-on experience with:
 * Full-stack MERN development
 * REST API design
 * Google Gemini API integration
-* Prompt engineering
 * Resume parsing
 * AI workflow orchestration
 * MongoDB data modeling
@@ -209,8 +208,6 @@ Through this project, I gained hands-on experience with:
 **Mugdha Naik**
 
 GitHub: https://github.com/Mugdha-Naik
-
-LinkedIn: *Add your LinkedIn profile*
 
 ---
 

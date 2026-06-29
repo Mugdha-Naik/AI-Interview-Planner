@@ -1,32 +1,51 @@
-# AI Interview Planner
+# 🚀 AI Interview Planner
 
-An AI-powered interview preparation platform designed to help users practice technical interviews, organize preparation workflows, and improve interview performance through an interactive and modern user experience.
+An AI-powered interview preparation platform that helps candidates prepare for technical interviews through personalized question generation, resume analysis, job description matching, and AI-generated interview reports.
 
----
-
-## Features
-
-* AI-assisted interview preparation
-* Interactive and responsive frontend UI
-* Structured interview planning workflow
-* Clean dashboard interface
-* Reusable React components
-* Modern responsive design
-* Fast and scalable frontend architecture
+The platform analyzes a candidate's resume and the target job description to generate role-specific interview questions, expected answers, coaching tips, and a personalized preparation roadmap.
 
 ---
 
-## Tech Stack
+## ✨ Features
+
+* 🤖 AI-powered interview question generation
+* 📄 Resume upload and parsing (PDF)
+* 💼 Job Description (JD) analysis
+* 📊 AI-generated interview evaluation reports
+* 🎯 Personalized preparation roadmap
+* 🧠 Skill gap identification
+* 📈 Candidate-job match analysis
+* 🔐 Secure user authentication using JWT
+* 📱 Fully responsive modern UI
+* ⚡ Fast and scalable MERN architecture
+
+---
+
+## 🛠 Tech Stack
 
 ### Frontend
 
 * React.js
 * JavaScript
 * SCSS
-* CSS3
 * HTML5
+* CSS3
 
-### Tools & Development
+### Backend
+
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+
+### AI & Libraries
+
+* Google Gemini API
+* pdf-parse
+* Zod
+* JSON Repair
+
+### Development Tools
 
 * Git
 * GitHub
@@ -34,28 +53,79 @@ An AI-powered interview preparation platform designed to help users practice tec
 
 ---
 
+## 📂 Project Structure
 
-## Installation & Setup
+```text
+AI-Interview-Planner
+│
+├── frontend
+│   ├── src
+│   ├── public
+│   └── package.json
+│
+├── backend
+│   ├── controllers
+│   ├── services
+│   ├── routes
+│   ├── models
+│   ├── middlewares
+│   └── package.json
+│
+└── README.md
+```
 
-Clone the repository:
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
 
 ```bash
 git clone https://github.com/Mugdha-Naik/AI-Interview-Planner.git
 ```
 
-Move into the project directory:
+### Navigate to the Project
 
 ```bash
 cd AI-Interview-Planner
 ```
 
-Install dependencies:
+### Install Dependencies
+
+Frontend
 
 ```bash
+cd frontend
 npm install
 ```
 
-Start the development server:
+Backend
+
+```bash
+cd backend
+npm install
+```
+
+### Environment Variables
+
+Create a `.env` file inside the backend directory.
+
+```env
+PORT=
+MONGO_URI=
+JWT_SECRET=
+GEMINI_API_KEY=
+```
+
+### Run the Application
+
+Backend
+
+```bash
+npm run dev
+```
+
+Frontend
 
 ```bash
 npm run dev
@@ -63,53 +133,88 @@ npm run dev
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
-Add project screenshots here.
+| Dashboard      | AI Report      |
+| -------------- | -------------- |
+| Add Screenshot | Add Screenshot |
 
-Example:
+| Resume Upload  | Interview Questions |
+| -------------- | ------------------- |
+| Add Screenshot | Add Screenshot      |
 
-```md
-![Dashboard Screenshot](./screenshots/dashboard.png)
+---
+
+## 🔄 Workflow
+
+```text
+Resume Upload
+        │
+        ▼
+Resume Parsing
+        │
+        ▼
+Job Description Analysis
+        │
+        ▼
+AI Processing (Gemini)
+        │
+        ▼
+Skill Gap Detection
+        │
+        ▼
+Interview Questions
+        │
+        ▼
+Interview Report
+        │
+        ▼
+Preparation Roadmap
 ```
 
 ---
 
-## Future Improvements
+## 🎯 Planned Enhancements
 
-* AI-generated interview questions
-* Mock interview simulations
-* Resume analysis integration
-* Voice-based interview assistant
-* Authentication system
+* Voice-based mock interviews
+* Adaptive follow-up questions
+* AI interviewer personas
+* Interview performance analytics
+* Resume optimization suggestions
+* Company-specific interview preparation
+* Live coding interview support
 * Progress tracking dashboard
-* Backend integration
-* Real-time analytics
 
 ---
 
-## Learning Outcomes
+## 📚 What I Learned
 
-This project helped strengthen:
+Through this project, I gained hands-on experience with:
 
-* Frontend development skills
-* React component architecture
-* Responsive UI development
-* State management concepts
-* Git and GitHub workflow
-* Project structuring practices
-
----
-
-## Author
-
-### Mugdha Naik
-
-* GitHub: https://github.com/Mugdha-Naik
-* LinkedIn: Add your LinkedIn URL here
+* Full-stack MERN development
+* REST API design
+* Google Gemini API integration
+* Prompt engineering
+* Resume parsing
+* AI workflow orchestration
+* MongoDB data modeling
+* Authentication with JWT
+* Responsive React application development
+* Backend architecture and modular service design
 
 ---
 
-## License
+## 👨‍💻 Author
 
-This project is open-source and available under the MIT License.
+**Mugdha Naik**
+
+GitHub: https://github.com/Mugdha-Naik
+
+LinkedIn: *Add your LinkedIn profile*
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
